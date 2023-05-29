@@ -1,13 +1,13 @@
-const strings = ["Rock", "Paper", "Scissors"];
+const choice = ["Rock", "Paper", "Scissors"];
 
 function getComputerChoice() {
 
-const randomIndex = Math.floor(Math.random() * strings.length);
+const randomIndex = Math.floor(Math.random() * choice.length);
 
-const randomString = strings[randomIndex];
+const randomChoice = choice[randomIndex];
 
-return randomString;
+return randomChoice;
 
 }
-const randomString = getComputerChoice();
-console.log(randomString);
+const randomChoice = getComputerChoice();
+console.log(randomChoice);
